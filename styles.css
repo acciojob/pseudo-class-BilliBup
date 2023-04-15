@@ -1,1 +1,12 @@
 /*  your css code here. If applicable */
+p{
+	display:inline;
+}
+.example::before{
+	content: "Before Element ";
+	color:red;	
+}
+.example ::after{
+	content: " After Element";
+	color:Red;
+}
