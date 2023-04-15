@@ -4,9 +4,9 @@ p{
 }
 .example::before{
 	content: "Before Element ";
-	color:red;	
+	color:rgb(255,0,0);	
 }
 .example ::after{
 	content: " After Element";
-	color:Red;
+	color:rgb(255,0,0);	
 }
